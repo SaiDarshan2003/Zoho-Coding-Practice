@@ -2,6 +2,7 @@
 
 ## Challenge 1:
 
+Find the longest palindrome sub-string in a string in Java.
 ```
 public class LongestPalindromeSubstring {
     public static void main(String[] args) {
@@ -44,6 +45,12 @@ public class LongestPalindromeSubstring {
 
 ## Challenge 2:
 
+Write a program to get the output:
+Eg. 1: input: a1b10
+Output abbbbbbbbb
+Eg. 2 input b3c6d15
+output bbbccccccddddddddddddddd
+The number varies from 1 to 99.
 ```
 public class StringExpander {
     public static void main(String[] args) {
@@ -84,6 +91,7 @@ public class StringExpander {
 
 ## Challenge 3:
 
+Find Duplicates in Array? Display its frequency.
 ```
 import java.util.HashMap;
 import java.util.Map;
@@ -115,6 +123,9 @@ public class FindDuplicates {
 ```
 
 ## Challenge 4:
+
+Write a program to print the following output for the given input. You can assume the string is of odd length.
+Input: 12345
 
 ```
 public class PrintPattern {
@@ -149,6 +160,10 @@ public class PrintPattern {
 
 ## Challenge 5:
 
+Given two sorted arrays, merge them such that the elements are not repeated
+Eg 1: Input:Array 1: 2,4,5,6,7,9,10,13
+        Array 2: 2,3,4,5,6,7,8,9,11,15
+       Output array: 2,3,4,5,6,7,8,9,10,11,13,15
 ```
 import java.util.ArrayList;
 import java.util.List;
@@ -217,6 +232,11 @@ public class MergeSortedArrays {
 
 ## Challenge 6:
 
+Using Recursion reverse the string such as Eg 1: Input: one two three
+      Output: three two one
+Eg 2: Input: I love india
+      Output: india love I
+
 ```
 public class ReverseWords {
     public static void main(String[] args) {
@@ -244,6 +264,7 @@ public class ReverseWords {
 
 ## Challenge 7:
 
+Find if a String2 is substring of String1. If it is, return the index of the first occurrence. else return -1.
 ```
 public class SubstringFinder {
     public static void main(String[] args) {
@@ -265,6 +286,7 @@ public class SubstringFinder {
 
 ## Challenge 8:
 
+Write a program to sort the elements in odd positions in descending order & even position elements in ascen order
 ```
 import java.util.ArrayList;
 import java.util.Collections;
@@ -323,6 +345,7 @@ public class SortOddEvenPositions {
 
 ## Challenge 9:
 
+Design a Call taxi booking application
 ```
 import java.util.ArrayList;
 import java.util.List;
@@ -509,6 +532,7 @@ public class Main {
 
 ## Challenge 10:
 
+Find the minimum number of times required to represent a number as sum of squares.
 ```
 public class MinimumSquares {
     public static void main(String[] args) {
